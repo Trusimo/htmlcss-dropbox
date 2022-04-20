@@ -14,6 +14,15 @@ h1 {
     padding: 30px 10px;
 }
 
+h2 {
+    padding-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+    padding-bottom: 200px;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -79,10 +88,47 @@ h1 {
 }
 
 .second-container {
-    width: 600px;
-    height: 700px;
+    width: 700px;
+    height: 800px;
     margin: auto;
     border: 1px dashed red;
     padding: 20px 10px;
     background-color: white;
+}
+
+.plans-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 5px;
+    text-align: center;
+    border: 1px dashed red
+}
+
+.plan {
+    border: 1px dashed red;
+    text-align: center;
+}
+
+.colplan {
+    width: calc(100% / 3);
+    border: 1px dashed red;
+    min-height: 100%;
+}
+
+.team-plan {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    gap: 20px;
+    border: 1px dashed red;
+    min-height: 200px;
+}
+
+.span-plan {
+    border: 1px dashed red;
+}
+
+.span-1 {
+    width: 70%;
 }

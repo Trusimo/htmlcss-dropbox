@@ -43,6 +43,7 @@ h2 {
     height: 500px;
     background-color: lightblue;
     position: relative;
+    top: 80px;
 }
 
 .jumbotron {

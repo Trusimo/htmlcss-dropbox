@@ -128,7 +128,7 @@ h2 {
 .plans-options {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 35px;
     padding: 20px 0;
 }
 
@@ -282,26 +282,21 @@ h2 {
 }
 
 .fifth-sec {
-    background-color: rgb(190, 190, 152);
     width: 100%;
     min-height: 300px;
     padding: 50px 0;
 }
 
+/* QUINTA SEZIONE */
 .fifth-container {
-    border: 1px dashed red;
-    max-width: 700px;
+    max-width: 800px;
     margin: auto;
-    padding: 10px;
 }
 
 .buyers {
     width: 60%;
 }
 
-.vuoto {
-    width: 40%;
-}
 
 .sixth-sec {
     min-height: 600px;

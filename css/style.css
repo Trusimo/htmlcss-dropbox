@@ -27,6 +27,7 @@ h2 {
     justify-content: space-between;
     padding: 20px 10px;
     background-color: white;
+    font-size: 14px;
     position: fixed;
     z-index: 10;
     
@@ -87,6 +88,10 @@ h2 {
     background-color: blue;
 }
 
+.little-button {
+    padding: 3px 6px;
+}
+
 .jumbo-img {
     max-height: 400px;
 }
@@ -101,60 +106,114 @@ h2 {
 
 .second-sec {
     width: 100%;
-    background-color: pink;
     min-height: 800px;
-    padding: 200px 0;
+    padding: 100px 0;
 }
 
 .second-container {
-    width: 700px;
-    height: 800px;
+    width: 800px;
     margin: auto;
-    border: 1px dashed red;
     padding: 20px 10px;
-    background-color: white;
+}
+
+.radio {
+    padding-right: 40px;
 }
 
 .plans-options {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    padding: 20px 5px;
-    text-align: center;
-    border: 1px dashed red
-}
-
-.plan {
-    border: 1px dashed red;
-    text-align: center;
+    gap: 30px;
+    padding: 20px 0;
 }
 
 .colplan {
     width: calc(100% / 3);
-    border: 1px dashed red;
+    border: 1px solid lightgray;
     min-height: 100%;
+}
+
+.col-border {
+    border-bottom: 1px solid lightgray;
+}
+
+.plan {
+    border: 1px solid #e5e5e7;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.col-padding {
+    padding: 0 8px;
+}
+
+.plan-info {
+    list-style: none;
+}
+
+.plan-name {
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.plan-price {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.plan-month {
+    color: #797979
+}
+
+.plan-list {
+    list-style: none;
+    padding-top: 50px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.plan-description {
+    padding: 5px 0;
+}
+
+.button-30 {
+    margin: 30px 0;
+}
+
+.buy-now {
+    color: blue;
+    text-decoration: underline;
+}
+
+.salient-points {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.plan-doing {
+    list-style: none;
+    padding-top: 20px;
+    line-height: 20px;
+    font-size: 14px;
 }
 
 .team-plan {
     display: flex;
     justify-content: space-between;
     padding: 20px 10px;
-    gap: 20px;
-    border: 1px dashed red;
+    gap: 30px;
+    border: 1px solid #e5e5e7;
     min-height: 200px;
-}
-
-.plan-list {
-    list-style: none;
-    padding-bottom: 200px;
-}
-
-.span-plan {
-    border: 1px dashed red;
 }
 
 .span-1 {
     width: 70%;
+}
+
+.span-2 {
+    margin-top: 15px;
 }
 
 .third-sec {

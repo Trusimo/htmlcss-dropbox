@@ -5,10 +5,6 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-header {
-    padding: 20px 10px;
-}
-
 footer {
     background-color: black;
     color: white;
@@ -25,9 +21,15 @@ h2 {
     padding-bottom: 40px;
 }
 
-.header-container {
+.nav {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 20px 10px;
+    background-color: white;
+    position: fixed;
+    z-index: 10;
+    
 }
 
 .login {
@@ -66,14 +68,14 @@ h2 {
     width: 60%;
 }
 
-.button-try {
+.button-blue {
     background-color: #0061ff;
     border: none;
     color: white;
     padding: 10px 12px;
 }
 
-.button-try:hover {
+.button-blue:hover {
     background-color: blue;
 }
 

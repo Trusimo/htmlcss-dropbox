@@ -40,10 +40,9 @@ h2 {
 }
 
 .first-background {
-    height: 500px;
-    background-color: lightblue;
+    background-color: #b4d0e7;
     position: relative;
-    top: 80px;
+    top: 10px;
 }
 
 .jumbotron {
@@ -52,7 +51,11 @@ h2 {
 }
 
 .presentation-par {
+    position: relative;
+    margin: auto;
+    top: 80px;
     width: 960px;
+    padding: 30px 0;
 }
 
 .first-container {
@@ -60,8 +63,9 @@ h2 {
 }
 
 .col {
-    padding: 5px;
     line-height: 20px;
+    position: relative;
+    top: 20px;
 }
 
 .col1 {
@@ -84,15 +88,22 @@ h2 {
 }
 
 .jumbo-img {
-    max-height: 300px;
-    max-width: auto;
+    max-height: 400px;
+}
+
+.button-try {
+    margin: 20px 0;
+}
+
+.icon-arrow {
+    padding: 70px 0;
 }
 
 .second-sec {
     width: 100%;
     background-color: pink;
     min-height: 800px;
-    padding: 100px 0;
+    padding: 200px 0;
 }
 
 .second-container {

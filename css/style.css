@@ -35,6 +35,7 @@ h2 {
 .login {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     gap: 20px;
 }
 
@@ -44,10 +45,12 @@ h2 {
     position: relative;
 }
 
+.jumbotron {
+    max-width: 100%;
+    margin: auto;
+}
+
 .presentation-par {
-    position: absolute;
-    left: 300px;
-    margin-top: 30px;
     width: 960px;
 }
 

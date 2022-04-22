@@ -34,6 +34,19 @@ h2 {
     
 }
 
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:visited {
+    text-decoration: none;
+}
+
+.logo-align {
+    vertical-align: middle;
+}
+
 .login {
     display: flex;
     justify-content: space-around;
@@ -204,6 +217,10 @@ h2 {
     text-decoration: underline;
 }
 
+.buy-now-block {
+    display: block;
+}
+
 .half-hr {
     color: lightgray;
     margin-left: 10px;
@@ -234,6 +251,14 @@ h2 {
 
 .span-1 {
     width: 70%;
+}
+
+.h5-pad-bot {
+    padding-bottom: 40px
+}
+
+.plan-font-size {
+    font-size: 14px;
 }
 
 .span-2 {
@@ -310,6 +335,11 @@ h2 {
 .fifth-container {
     max-width: 800px;
     margin: auto;
+}
+
+.find-more-blue {
+    color: blue;
+    text-decoration: underline;
 }
 
 .buyers {

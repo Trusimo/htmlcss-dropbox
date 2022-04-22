@@ -407,17 +407,25 @@ h2 {
     max-width: 800px;
     margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    border: 1px dashed red;
+    justify-content: space-between;
 }
 
 .title-try {
     color: #61082b;
     padding: 0;
+    max-width: 400px;
 }
 
+.button-gratis {
+    border: none;
+    padding: 8px 25px;
+}
+
+.button-gratis:hover {
+    background-color: lightgray;
+}
+
+/* OTTAVA SEZIONE */
 .eight-sec {
     min-height: 500px;
     padding: 50px 0;
@@ -428,10 +436,13 @@ h2 {
     margin: auto;
 }
 
-.freq-quest {
+.flex-faq {
+    display: flex;
+    justify-content: space-between;
     padding: 30px 0;
 }
 
+/* FOOTER */
 .footer-container {
     max-width: 960px;
     margin: auto;
